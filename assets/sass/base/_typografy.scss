@@ -1,0 +1,23 @@
+body {
+  color: $raising-black;
+  font-family: $open-sans;
+  font-size: $small;
+  line-height: 1.8rem;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: $raleway;
+  font-weight: bold;
+  line-height: 4rem;
+}
+
+h1 { font-size: $xxx-large; }
+h2 { font-size: $x-large; }
+h3 { font-size: $large; }
+h4 {
+  font-size: $medium; 
+
+  small {
+    font-size: $small;
+  }
+}

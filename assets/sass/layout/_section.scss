@@ -1,0 +1,61 @@
+.section__img {
+	background-image: url(../images/bg-price.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 130vh;
+    margin-top:8%;
+    padding-bottom:5%;
+}
+
+.color {
+	color:$white;
+}
+
+.section__espacios {
+	margin-top:15%;
+}
+
+
+.cont-flex {
+	display: flex;
+  	justify-content: flex-end;
+}
+
+.cont-flex2 {
+	display: flex;
+  	justify-content: flex-start;
+}
+
+.section__card {
+	background-color:$white;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	height:70vh;
+	width: 65%;
+	padding: 5%;
+}
+
+hr {
+	width:80%;
+	margin-top:1%;
+	margin-bottom:1%;
+}
+
+small {
+	font-size:$x-large;
+}
+
+ul li {
+	margin-left:10%;
+	list-style-type: circle;
+}
+
+.section__listas {
+	margin-top:10%;
+	margin-bottom:50%;
+}
+
+.section__listas2 {
+	margin-top:10%;
+	margin-bottom:26%;
+}

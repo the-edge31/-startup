@@ -1,0 +1,40 @@
+.boton_primario {
+	background-color:$ball-blue;
+	border:1px solid $ball-blue;
+	display:inline-block;
+	cursor:pointer;
+	color:$white;
+	font-family:$raleway;
+	font-size:$medium;
+	padding:13px 31px;
+	text-decoration:none;
+	margin-left:6%;
+
+}
+.boton_primario:hover {
+	background-color:$middle-blue;
+}
+
+.boton_secundario {
+	background-color: $white;
+    color: $raising-black;
+    border:1px solid $white;
+}
+
+.boton_primario-large {
+	background-color:$ball-blue;
+	border:1px solid $ball-blue;
+	display:inline-block;
+	cursor:pointer;
+	color:$white;
+	font-family:$raleway;
+	font-size:$medium;
+	padding:13px 31px;
+	width:90%;
+	text-decoration:none;
+	margin-left:6%;
+
+}
+.boton_primario-large:hover {
+	background-color:$middle-blue;
+}

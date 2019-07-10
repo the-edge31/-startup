@@ -1,0 +1,30 @@
+header {
+	height:90px;
+	padding-top:1%;
+}
+
+nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  
+}
+
+nav a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  float: left;
+  color:$raising-black;
+}
+
+.logo {
+	padding-left:20px;
+}
+
+.menu__izq {
+	display: flex;
+    justify-content: flex-end;
+}
