@@ -2,11 +2,24 @@
 	margin-top:20%;
 }
 
+@media screen and (max-width: 375px) {
+  .main__textos {
+    padding:4%;
+  }
+}
+
 .main__img {
 	background-image: url(../images/bg-hero.svg);
     background-position: right bottom;
     background-repeat: no-repeat;
     background-size: 71%;
     height: 100vh;
-
 }
+
+@media screen and (max-width: 375px) {
+  .main__img {
+    background-size: 160%;
+  }
+}
+
+

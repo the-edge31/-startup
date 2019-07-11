@@ -320,6 +320,11 @@ header {
   padding-top: 1%;
 }
 
+@media screen and (max-width: 375px) {
+  header {
+    margin-top: 17px;
+  }
+}
 nav {
   list-style-type: none;
   margin: 0;
@@ -327,6 +332,11 @@ nav {
   overflow: hidden;
 }
 
+@media screen and (max-width: 375px) {
+  .menu {
+    display: none;
+  }
+}
 nav a {
   display: block;
   text-align: center;
@@ -345,6 +355,16 @@ nav a {
   justify-content: flex-end;
 }
 
+@media screen and (max-width: 375px) {
+  .menu__izq {
+    display: none;
+  }
+}
+@media screen and (min-width: 505px) {
+  .fa-bars {
+    display: none;
+  }
+}
 footer {
   background-color: #221d23;
 }
@@ -357,10 +377,21 @@ footer a {
   padding-top: 3%;
 }
 
+@media screen and (max-width: 375px) {
+  .menu-secondary {
+    display: flex;
+    justify-content: center;
+  }
+}
 .main__textos {
   margin-top: 20%;
 }
 
+@media screen and (max-width: 375px) {
+  .main__textos {
+    padding: 4%;
+  }
+}
 .main__img {
   background-image: url(../images/bg-hero.svg);
   background-position: right bottom;
@@ -369,6 +400,11 @@ footer a {
   height: 100vh;
 }
 
+@media screen and (max-width: 375px) {
+  .main__img {
+    background-size: 160%;
+  }
+}
 .section__img {
   background-image: url(../images/bg-price.svg);
   background-position: center;
@@ -379,6 +415,12 @@ footer a {
   padding-bottom: 5%;
 }
 
+@media screen and (max-width: 992px) {
+  .section__img {
+    height: auto;
+    padding-top: 53%;
+  }
+}
 .color {
   color: #fff;
 }
@@ -405,6 +447,13 @@ footer a {
   padding: 5%;
 }
 
+@media screen and (max-width: 992px) {
+  .section__card {
+    height: auto;
+    width: 70%;
+    margin: auto;
+  }
+}
 hr {
   width: 80%;
   margin-top: 1%;
@@ -430,6 +479,24 @@ ul li {
   margin-bottom: 26%;
 }
 
+@media screen and (max-width: 375px) {
+  .section__textos {
+    padding: 4%;
+  }
+}
+.grafico {
+  animation: mypal 0.5s;
+  animation-timing-function: ease-in;
+}
+
+@keyframes mypal {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 .boton_primario {
   background-color: #2ab7ca;
   border: 1px solid #2ab7ca;

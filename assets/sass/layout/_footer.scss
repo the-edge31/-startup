@@ -9,3 +9,11 @@ footer a {
 .copy {
 	padding-top:3%;
 }
+
+
+@media screen and (max-width: 375px) {
+  .menu-secondary  {
+   	display: flex;
+  	justify-content: center;
+  }
+}

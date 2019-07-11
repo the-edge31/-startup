@@ -3,12 +3,30 @@ header {
 	padding-top:1%;
 }
 
+    
+@media screen and (max-width: 375px) {
+ header {
+   margin-top: 17px;
+
+  }
+}
+
+
+
+
 nav {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
   
+}
+
+@media screen and (max-width: 375px) {
+ .menu {
+   display:none;
+
+  }
 }
 
 nav a {
@@ -28,3 +46,18 @@ nav a {
 	display: flex;
     justify-content: flex-end;
 }
+
+@media screen and (max-width: 375px) {
+ .menu__izq {
+   display:none;
+
+  }
+}
+
+@media screen and (min-width: 505px) {
+ .fa-bars  {
+   display:none;
+
+  }
+}
+

@@ -5,8 +5,17 @@
     background-size: cover;
     height: 130vh;
     margin-top:8%;
-    padding-bottom:5%;
+    padding-bottom:5%; 
 }
+
+@media screen and (max-width: 992px) {
+  .section__img {
+    height:auto;
+    padding-top: 53%;
+
+  }
+}
+
 
 .color {
 	color:$white;
@@ -35,6 +44,15 @@
 	padding: 5%;
 }
 
+@media screen and (max-width: 992px) {
+  .section__card {
+    height:auto;
+    width: 70%;
+    margin:auto;
+
+  }
+}
+
 hr {
 	width:80%;
 	margin-top:1%;
@@ -58,4 +76,34 @@ ul li {
 .section__listas2 {
 	margin-top:10%;
 	margin-bottom:26%;
+}
+
+.section__textos {
+
+}
+
+@media screen and (max-width: 375px) {
+ .section__textos {
+   padding:4%;
+
+  }
+}
+
+
+.grafico {
+  animation: mypal 1s;
+  animation-timing-function: ease-in;
+
+}
+
+  @keyframes mypal {
+      0%   {
+        opacity: 0
+      }
+
+      100% {
+       opacity: 1
+
+
+      }
 }
